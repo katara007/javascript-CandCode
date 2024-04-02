@@ -30,4 +30,29 @@ const myFunction = function(){
     console.log("hello world");
 }
 
-console.log(typeof myObj);
+// console.log(typeof myObj);
+
+
+
+// ++++++++++++++++++++++++++++++++++++  Memory  +++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive-gives copy of value), Heap(non-Primitive-gives real value)
+
+let myYoutubename = "ankurkatara"
+
+let myName = myYoutubename
+myName = "Madhav"
+console.log(myName);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ankur@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
