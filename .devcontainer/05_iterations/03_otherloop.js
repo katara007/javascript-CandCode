@@ -36,4 +36,3 @@ const myObject = {
 }
 // for (const [key, value] of myObject) {  // doesn't work in object
 //     console.log(key, ":-", value);
-}
